@@ -1,0 +1,25 @@
+{
+  "name": "dlcconnector",
+  "version": "1.0.0",
+  "description": "Social Natwork for developer",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server",
+    "server": "nodemon server"
+  },
+  "author": "David Luyindula De Castro",
+  "license": "MIT",
+  "dependencies": {
+    "D": "^1.0.0",
+    "bcryptjs": "^2.4.3",
+    "concurrently": "^5.0.2",
+    "config": "^3.2.5",
+    "express": "^4.17.1",
+    "express-validator": "^6.3.1",
+    "gravatar": "^1.8.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.8.9",
+    "nodemon": "^2.0.2",
+    "request": "^2.88.0"
+  }
+}
